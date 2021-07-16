@@ -17,7 +17,7 @@ public class PaymentController {
 	
 	@PostMapping("/paymentcheck")
 	public PaymentInfo paymentCheck(@RequestBody BookingRequest bookingRequest) {
-		System.out.println("vivek controller");
+		System.out.println("vivek controller checjk");
 		return paymentService.paymentCheck(bookingRequest);
 		
 	}
